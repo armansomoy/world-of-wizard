@@ -1,0 +1,322 @@
+#metaverse {
+    background: linear-gradient(209.06deg, #1E2019 9.45%, #2C291F 82.14%);
+    padding: 100px 0;
+}
+
+#metaverse h3 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: CenturyGothicBold;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#metaverse h3 span {
+    color: #D7BF01;
+}
+
+#metaverse .meta_item h6 {
+    color: #D7BF01;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: CenturyGothicBold;
+}
+
+#metaverse .meta_item img {
+    width: 80px;
+    height: 80px;
+}
+
+#metaverse .meta_item img {
+    width: 80px;
+    height: 80px;
+}
+
+#metaverse .meta_item p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: SteradianLight;
+    padding-bottom: 40px;
+}
+
+#metaverse .meta_item .last {
+    padding-bottom: 15px;
+}
+
+#metaverse .meta_item a {
+    color: #27271D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    background: #D7BF01;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 6px;
+    transition: all linear .3s;
+}
+
+#metaverse .meta_item a:hover {
+    border: 1px solid #D7BF01;
+    border-radius: 6px;
+    color: #D7BF01;
+    background-color: transparent;
+    transition: all linear .3s;
+}
+
+// Start FAQ CSS
+#faq {
+    background: linear-gradient(209.06deg, #1E2019 9.45%, #2C291F 82.14%);
+    padding: 100px 0;
+}
+
+#faq h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    font-family: CenturyGothicBold;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#faq .card {
+    background: none;
+    border: 1px solid #D7BF01;
+    margin: 15px 0;
+}
+
+#faq .card .card-header {
+    border: none;
+}
+
+#faq .card .card-header h2 button {
+    color: #D7BF01;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: CenturyGothicBold;
+
+}
+
+#faq .card .card-header h2 button:hover {
+    text-decoration: none;
+}
+
+#faq .card .card-header {
+    position: relative;
+}
+
+#faq .card .card-header h2 button i {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#faq .card .card-body {
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: SteradianLight;
+    padding-left: 35px;
+}
+
+// End FAQ CSS
+
+
+
+
+// Start Footer CSS
+.footer {
+    background: hsl(277deg 100% 14%);
+}
+
+.footer .footer_item {
+    padding: 75px 0;
+}
+
+
+.footer__bottom {
+    background: #20221A;
+    height: 100px;
+}
+
+.footer__bottom .copyright {
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    font-family: CenturyGothicBold;
+
+}
+
+.footer__bottom p span {
+    color: #D7BF01;
+}
+
+.footer .footer_item .logo_part img {
+    padding-bottom: 24px;
+}
+
+.footer .footer_item .logo_part p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 28px;
+    font-family: SteradianLight;
+
+}
+
+.footer .footer_item .quick_link h4 {
+    margin-top: 15px;
+    color: #D7BF01;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-family: CenturyGothicBold;
+}
+
+.footer .footer_item .quick_link ul li {
+    padding: 5px 0;
+}
+
+.footer .footer_item .quick_link ul li a {
+    color: #fff;
+    // font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    transition: all linear .2s;
+    font-family: SteradianLight;
+}
+
+.footer .footer_item .quick_link ul li a:hover {
+    color: #D7BF01;
+    transition: all linear .2s;
+}
+
+.footer .footer_item .footer_icons h4 {
+    margin-top: 15px;
+    color: #D7BF01;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-family: CenturyGothicBold;
+}
+
+.footer .footer_item .footer_icons ul li {
+    display: inline-block;
+}
+
+.footer .footer_item .footer_icons ul li a {
+    border: 1px solid #D7BF01;
+    padding: 13px;
+}
+
+#partner {
+    background: linear-gradient(209.06deg, #1E2019 9.45%, #2C291F 82.14%);
+    padding: 150px 0;
+}
+
+.blank_footer {
+    height: 70px;
+}
+
+// End Footer CSS
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 575.9px) {
+    #metaverse .meta_item {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #metaverse .meta_item p {
+        padding-bottom: 0;
+    }
+
+    #faq {
+        padding: 50px 0;
+    }
+
+    #faq h3 {
+        font-size: 33px;
+    }
+
+    #faq .card .card-header h2 button {
+        font-size: 14px;
+    }
+
+    #faq .card .card-body {
+        font-size: 12px;
+    }
+
+    #partner img {
+        padding-bottom: 30px;
+    }
+
+    #partner {
+        padding: 75px 0;
+    }
+
+    .footer .footer_item .logo_part img {
+        padding-bottom: 24px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+    #metaverse .meta_item {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #partner {
+        padding: 50px 0;
+    }
+
+    #partner img {
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #metaverse .meta_item {
+        text-align: center;
+    }
+
+    .footer .footer_item .logo_part img {
+        width: 100%;
+    }
+
+    .footer .footer_item .logo_part p {
+        font-size: 16px;
+    }
+
+    .footer .footer_item .quick_link ul li a {
+        font-size: 16px;
+    }
+
+    .footer .footer_item .quick_link h4 {
+        font-size: 15px;
+    }
+
+    .footer .footer_item .footer_icons ul li a {
+        padding: 8px;
+    }
+
+    .footer .footer_item .footer_icons ul li a img {
+        width: 16px;
+    }
+}

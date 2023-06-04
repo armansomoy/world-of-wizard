@@ -1,0 +1,154 @@
+/* Reset CSS */
+
+$maincol:#7f479a;
+$yellow: #f7ea66;
+$white: white;
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+*{
+	scrollbar-width: thin;
+}
+::-webkit-scrollbar{
+	width: 20px;
+	color: white;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: $maincol; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #4c2261; 
+  }
+
+html,
+body{
+	scroll-behavior: smooth;
+	background: #411B58;
+}
+
+/* Change text & background color */
+
+
+a,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+@mixin trans($time,$del) {
+    -webkit-transition: all linear $time $time;
+    -moz-transition: all linear $time $time;
+    -o-transition: all linear $time $time;
+    transition: all linear $time $time;
+}
+
+button,
+button:hover,
+button:focus,
+button:active {
+	outline: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+.clr{
+	clear: both;
+}
+
+.maxcontainer{
+	max-width: 1300px !important;
+}
+
+.seciont_header{
+	text-align: center;
+	img{
+		display: inline-block;
+	}
+	h2{
+		font-size: 32px;
+		position: relative;
+		color: #f7ea66;
+		line-height: 24px;
+		font-weight: 400;
+		font-family: "Berkshire Swash";
+		margin-bottom: 40px;
+		text-transform: capitalize;
+		text-align: center;
+	}
+}
+h3{
+	font-size: 20px;
+    color: $yellow;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Berkshire Swash";
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.m-btn{
+	font-size: 18px;
+    vertical-align: top;
+    text-align: center;
+    line-height: 40px;
+    color: $maincol !important;
+    font-weight: 400;
+    font-family: "Berkshire Swash";
+    padding: 0 12px;
+    border-radius: 35px;
+	transition: ease all .5s;
+    background: $yellow;
+	letter-spacing: auto;
+	&:hover{
+	box-shadow:1px -1px 20px 2px $yellow;
+	}
+	
+}
+
+
+
+/* Footer Style */
+.footer{
+
+	.copyright{
+		font-size: 0.8rem;
+		&__link{
+			&:hover,
+			&:focus{
+				text-decoration: underline #ddb180;
+			}
+		}
+	}
+}
+// font-family: 'Berkshire Swash', cursive;
+// font-family: 'Dancing Script', cursive;
+// font-family: 'Open Sans', sans-serif;

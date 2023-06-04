@@ -1,0 +1,34 @@
+#metaverse{
+    background:url('../images/faq.jpg');
+    margin-bottom: 60px;
+    .meta-item{
+        background: url('../images/metaverse.jpg') no-repeat center;
+        background-size: cover;
+        text-align: center;
+        margin: 0 30px;
+        padding: 40px 35px;
+        margin-bottom: -60px;
+        border-radius: 20px;
+        border: 1px solid transparent;
+        @include trans(.2s, 0s);
+        &:hover{
+            border-radius: 20px;
+            box-shadow: -2px -3px 20px $maincol;
+            border: 1px solid #f7ea66;
+        }
+        h3{
+            padding-top: 20px;
+    padding-bottom: 10px;
+        }
+        p{
+            padding-bottom: 20px;
+        }
+        .m-btn {
+            font-size: 17px;
+            padding: 0 25px;
+            border-radius: 35px;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+}

@@ -1,0 +1,101 @@
+#team {
+    padding: 150px 0;
+
+    h2 {
+        font-size: 32px;
+        color: #f7ea66;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: "Berkshire Swash";
+        margin-bottom: 80px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .col-lg-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .team-member {
+        .s-d {
+            display: none;
+        }
+
+        // .l-d{
+        //     display: inherit;
+        // }
+        padding: 0;
+
+        .img-hover-content {
+            position: relative;
+            transition: 0.5s ease;
+
+            &:hover .img-layout {
+                height: 100%;
+                cursor: grab;
+            }
+
+            &:hover .img-layout ul {
+                display: inherit;
+            }
+
+            .img-layout {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgba(0, 0, 0, .6);
+                width: 100%;
+                height: 0;
+                transition: 0.5s ease;
+
+                ul {
+                    margin-top: 100px;
+                    float: right;
+                    margin-right: 20px;
+                    display: none;
+
+                    li {
+
+                        height: 38px;
+                        width: 38px;
+                        line-height: 36px;
+                        border: 1px solid #f7ea66;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 5px 0;
+
+                        a {
+                            color: #f7ea66;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        h6 {
+            font-size: 20px;
+            color: #f7ea66;
+            line-height: 24px;
+            font-weight: 400;
+            font-family: "Berkshire Swash";
+            text-transform: capitalize;
+            margin-top: 10px;
+            padding-left: 15px;
+            z-index: 9;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 14px;
+            color: #fff;
+            line-height: 24px;
+            font-weight: 400;
+            padding-left: 15px;
+            font-family: "Berkshire Swash";
+            text-transform: capitalize;
+            z-index: 9;
+        }
+    }
+}

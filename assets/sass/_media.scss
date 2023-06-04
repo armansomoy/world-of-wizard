@@ -1,0 +1,305 @@
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #metaverse .meta-item {
+        margin: 0px;
+    }
+}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-toggler {
+        font-size: 16px;
+    }
+
+    .responsive-bar {
+        color: #ffffff;
+        font-size: 24px;
+    }
+
+    #banner {
+        .banner-img {
+            text-align: left;
+            padding-top: 80px;
+        }
+
+        .banner-test {
+            padding-top: 30px;
+            text-align: center;
+        }
+    }
+
+    #how-we-works {
+        iframe {
+            width: 300px;
+            height: 650px;
+        }
+
+        .step-part {
+            text-align: center;
+            padding: 15px 0 15px;
+
+            .step-box {
+                height: 50px;
+                width: 50px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+
+                h3 {
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+
+    #roadmap .ag-format-container {
+        width: 100%;
+    }
+
+    #roadmap .ag-timeline-card_item {
+        margin: -67px -40px 0px;
+        width: 50%;
+    }
+
+    #metaverse .meta-item {
+        padding: 20px 5px;
+        margin: 0px;
+        margin-bottom: -60px;
+    }
+
+    #team {
+        padding: 100px 0;
+    }
+
+    .company-logo {
+        padding: 20px;
+    }
+}
+
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.9px) {
+    .navbar-toggler {
+        font-size: 16px;
+    }
+
+    .responsive-bar {
+        color: #ffffff;
+        font-size: 24px;
+    }
+
+    #how-we-works {
+
+        .img-radius {
+            text-align: center;
+        }
+
+        .address-design {
+
+            .address-title {
+                padding-top: 60px;
+            }
+
+            p span {
+                padding: 14px 16px;
+                font-size: 14px;
+            }
+
+            p button {
+                padding: 9px 14px;
+                font-size: 14px;
+                transform: translateX(166%) translateY(-78%);
+            }
+
+        }
+
+
+
+        h2 {
+            font-size: 24px;
+        }
+
+        .step-part {
+            text-align: center;
+            padding: 15px 0 15px;
+
+            .step-box {
+                height: 50px;
+                width: 50px;
+                margin: 0 auto;
+                margin-bottom: 30px;
+
+                h3 {
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+
+    #timeline {
+        display: none;
+    }
+
+    #roadmap .ag-timeline_title {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    #metaverse .meta-item {
+        padding: 50px 35px;
+        margin: 10px 50px;
+    }
+
+    #team {
+        padding: 100px 0px;
+
+        .team-member {
+            padding: 60px 30px;
+
+            h6 {
+                font-size: 30px;
+                text-align: center;
+                line-height: 40px;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            .l-d {
+                display: none;
+            }
+
+            .s-d {
+                display: inherit !important;
+            }
+        }
+
+    }
+
+    #faqSection div {
+        width: 100%;
+    }
+
+    #company .company-logo {
+        padding: 20px;
+    }
+
+}
+
+/*======== extra small device =========*/
+@media screen and (max-width: 575.9px) {
+    .responsive-bar {
+        color: #ffffff;
+        font-size: 24px;
+    }
+
+    #banner .banner-test {
+        padding-top: 25px;
+    }
+
+    iframe {
+        width: 100% !important;
+    }
+
+    #how-we-works .step-part {
+        text-align: center;
+        padding: 15px 0 15px;
+
+        .step-box {
+            height: 50px;
+            width: 50px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+
+            h3 {
+                line-height: 50px;
+            }
+        }
+    }
+
+    #how-we-works .address-design .address-title {
+        padding-top: 60px;
+    }
+
+    #how-we-works .address-design p span {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+
+    #how-we-works .address-design p button {
+        padding: 9px 14px;
+        font-size: 14px;
+        transform: translateX(-31%) translateY(-22%);
+
+    }
+
+    #how-we-works .timeline-header {
+        padding-top: 135px;
+        padding-bottom: 0px;
+        line-height: 40px;
+    }
+
+    #how-we-works .address-design p {
+        margin-left: -40px;
+    }
+
+    .tl-item {
+        width: 100%;
+        height: 500px;
+    }
+
+    #roadmap .ag-timeline-card_item li {
+        padding: 5px 0px;
+        font-size: 14px;
+    }
+
+    #roadmap .ag-timeline_title {
+        font-size: 30px;
+    }
+
+    #metaverse {
+        overflow: hidden;
+    }
+
+    #metaverse .meta-item {
+        margin-bottom: 30px;
+    }
+
+    #team {
+        padding: 50px;
+        overflow: hidden;
+    }
+
+    #team .team-member {
+        padding: 20px 0px;
+    }
+
+    .img-hover-content:hover .image-layout {
+        height: 100%;
+    }
+
+    .l-d {
+        display: none;
+    }
+
+    .team-member .s-d {
+        display: inherit !important;
+    }
+
+    #faqSection div {
+        width: 100%;
+    }
+
+    #company img {
+        margin: 20px 0;
+    }
+
+    .footer p {
+        text-align: center;
+
+    }
+
+    #timeline {
+        display: none;
+    }
+}

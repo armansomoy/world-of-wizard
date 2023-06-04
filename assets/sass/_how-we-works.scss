@@ -1,0 +1,140 @@
+#how-we-works {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 0px;
+
+
+    h2 {
+        font-size: 32px;
+        position: relative;
+        color: #f7ea66;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: "Berkshire Swash";
+        padding-bottom: 80px;
+        text-transform: capitalize;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .address-design {
+        .address-title {
+            padding-top: 160px;
+            padding-bottom: 60px;
+        }
+
+        p {
+            @include trans(.3s, .0s);
+
+            span {
+                background-color: transparent;
+                padding: 18px 50px;
+                color: #fff;
+                border-radius: 49px;
+                border: 1px solid #fff;
+                font-size: 24px;
+                font-family: CenturyGothicBold;
+                background: rgba(147, 31, 255, 0.11);
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                border-radius: 50px;
+                border: 1px solid rgba(255, 255, 255, 0.18);
+                @include trans(.3s, .0s);
+
+            }
+
+            button {
+                background: #f7ea66;
+                border: 1px solid #f7ea66;
+                border: 0 none;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+                outline: 0 none;
+                padding: 19px 26px;
+                position: absolute;
+                text-align: center;
+                text-decoration: none;
+                z-index: 99;
+                font-size: 18px;
+                font-weight: 600;
+                transform: translateX(-32%) translateY(-31%);
+                cursor: pointer;
+                @include trans(.3s, .0s);
+            }
+
+            &:hover span,
+            button {
+                border: 1px solid #D7BF01;
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            }
+        }
+
+    }
+
+
+    .timeline-header {
+        padding-top: 135px;
+        padding-bottom: 0px;
+    }
+
+    .step-part {
+        padding: 15px 0px 10px;
+        cursor: pointer;
+        margin: 15px 0px;
+        border-radius: 10px;
+        background: rgba(147, 31, 255, 0.11);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        @include trans(.3s, .0s);
+
+
+
+        .step-box {
+            margin-top: 12px;
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            background: transparent;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            @include trans(.3s, .0s);
+
+            h3 {
+                color: #D7BF01;
+                line-height: 60px;
+                font-size: 35px;
+                font-weight: 600;
+                font-family: "Open Sans";
+            }
+        }
+
+        h3 {
+            letter-spacing: 2px;
+            font-family: "Open Sans";
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 25px;
+            padding-bottom: 10px;
+        }
+
+        &:hover .step-box {
+            box-shadow: -2px -3px 20px $maincol;
+            border: 1px solid #f7ea66;
+        }
+
+        &:hover {
+            border: 1px solid #D7BF01;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+
+    }
+
+}
